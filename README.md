@@ -1,14 +1,14 @@
+<header>
+  <h1>NEXORA TRADE & LOGISTICS</h1>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">À propos</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-# NEXORA TRADE & LOGISTICS
-
-Import • Export • Logistique • Prestations de services
-
-## 🌐 Site web
-Ce projet est un site vitrine pour une entreprise de logistique.
-
-## 📁 Contenu
-- index.html → page principale du site
-- style intégré dans le HTML
-
-## 🚀 Déploiement
-Ce site est hébergé via GitHub Pages.
+<section class="hero">
+  <h2>Import • Export • Logistique</h2>
+  <p>Votre partenaire de confiance pour le transport international</p>
+  <a class="btn" href="#contact">Nous contacter</a>
+</section>
