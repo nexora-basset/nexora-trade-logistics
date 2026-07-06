@@ -49,3 +49,11 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+<button class="dropbtn" onclick="toggleMenu()">☰ Menu</button>
+
+<div class="dropdown-content">
+  <a href="#">Dashboard</a>
+  <a href="#">Trade Log</a>
+  <a href="#">Analytics</a>
+  <a href="#">Settings</a>
+</div
