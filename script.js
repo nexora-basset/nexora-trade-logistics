@@ -1,3 +1,3 @@
 function toggleMenu() {
-  document.querySelector(".dropdown-content").classList.toggle("show");
+    document.querySelector(".dropdown-content").classList.toggle("show");
 }
