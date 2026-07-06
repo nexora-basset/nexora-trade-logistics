@@ -1,315 +1,361 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>NEXORA TRADE & LOGISTICS | Global Trade Solutions</title>
 
-<!-- Google Font -->
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<meta name="description" content="NEXORA TRADE & LOGISTICS - Commerce international, Import Export, Logistique, Développement commercial.">
 
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Inter', sans-serif;
-scroll-behavior:smooth;
-}
+<link rel="stylesheet" href="css/style.css">
 
-body{
-background:#0a0f1f;
-color:#fff;
-}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-/* NAVBAR */
-nav{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:20px 8%;
-background:rgba(10,15,31,0.8);
-backdrop-filter: blur(10px);
-position:fixed;
-width:100%;
-top:0;
-z-index:1000;
-border-bottom:1px solid rgba(255,255,255,0.1);
-}
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-nav h1{
-font-size:18px;
-letter-spacing:2px;
-}
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
-nav a{
-color:#fff;
-text-decoration:none;
-margin:0 12px;
-font-size:14px;
-opacity:0.8;
-transition:0.3s;
-}
-
-nav a:hover{
-opacity:1;
-color:#00d4ff;
-}
-
-/* HERO */
-.hero{
-height:100vh;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:0 20px;
-background:
-radial-gradient(circle at top, #1b2a5a, #0a0f1f);
-}
-
-.hero h2{
-font-size:52px;
-max-width:900px;
-line-height:1.1;
-}
-
-.hero p{
-margin-top:20px;
-max-width:700px;
-opacity:0.8;
-font-size:18px;
-}
-
-.btn{
-margin-top:30px;
-padding:12px 25px;
-background:linear-gradient(90deg,#00d4ff,#0066ff);
-border:none;
-color:white;
-font-weight:600;
-border-radius:30px;
-cursor:pointer;
-transition:0.3s;
-}
-
-.btn:hover{
-transform:scale(1.05);
-}
-
-/* SECTIONS */
-section{
-padding:100px 10%;
-}
-
-.title{
-text-align:center;
-font-size:32px;
-margin-bottom:50px;
-}
-
-/* GRID CARDS */
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
-gap:20px;
-}
-
-.card{
-background:rgba(255,255,255,0.05);
-padding:25px;
-border-radius:15px;
-border:1px solid rgba(255,255,255,0.1);
-transition:0.3s;
-}
-
-.card:hover{
-transform:translateY(-8px);
-border-color:#00d4ff;
-}
-
-/* ABOUT */
-.about p{
-max-width:800px;
-margin:auto;
-text-align:center;
-opacity:0.8;
-line-height:1.8;
-}
-
-/* CONTACT */
-.contact-box{
-background:rgba(255,255,255,0.05);
-padding:30px;
-border-radius:15px;
-max-width:700px;
-margin:auto;
-}
-
-input,textarea{
-width:100%;
-padding:12px;
-margin:10px 0;
-border:none;
-border-radius:8px;
-background:#111a33;
-color:#fff;
-}
-
-button.submit{
-width:100%;
-padding:12px;
-background:linear-gradient(90deg,#00d4ff,#0066ff);
-border:none;
-color:white;
-font-weight:600;
-border-radius:8px;
-cursor:pointer;
-}
-
-/* FOOTER */
-footer{
-text-align:center;
-padding:30px;
-border-top:1px solid rgba(255,255,255,0.1);
-opacity:0.7;
-}
-
-/* ANIMATION */
-.fade{
-opacity:0;
-transform:translateY(30px);
-transition:all 1s ease;
-}
-
-.fade.show{
-opacity:1;
-transform:translateY(0);
-}
-</style>
 </head>
 
 <body>
 
-<!-- NAV -->
-<nav>
-<h1>NEXORA GLOBAL</h1>
-<div>
-<a href="#home">Home</a>
-<a href="#about">About</a>
-<a href="#services">Services</a>
-<a href="#expertise">Expertise</a>
-<a href="#contact">Contact</a>
+<header>
+
+<div class="logo">
+
+<h2>NEXORA</h2>
+
+<span>TRADE & LOGISTICS</span>
+
 </div>
+
+<nav>
+
+<ul>
+
+<li><a href="#">Accueil</a></li>
+
+<li><a href="#">À propos</a></li>
+
+<li><a href="#">Services</a></li>
+
+<li><a href="#">Expertise</a></li>
+
+<li><a href="#">Partenaires</a></li>
+
+<li><a href="#">Contact</a></li>
+
+</ul>
+
 </nav>
 
-<!-- HERO -->
-<section class="hero" id="home">
-<h2>Global Trade. Logistics. Business Growth.</h2>
-<p>
-We connect Africa to the world through international trade, logistics solutions,
-and strategic business development services.
-</p>
-<button class="btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
-Get in Touch
-</button>
-</section>
+<a href="#" class="btn-nav">Demander un devis</a>
 
-<!-- ABOUT -->
-<section id="about" class="fade">
-<h2 class="title">About Us</h2>
-<div class="about">
+</header>
+
+<section class="hero">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h1>
+
+Connecter les marchés.
+
+Développer votre entreprise.
+
+Accélérer votre croissance.
+
+</h1>
+
 <p>
-NEXORA TRADE & LOGISTICS is an international business development company based in Douala, Cameroon.
-We specialize in import-export operations, global sourcing, logistics coordination,
-and business matchmaking between international partners.
+
+NEXORA accompagne les entreprises africaines et internationales dans leurs opérations de commerce international, de logistique, d'import-export et de développement commercial.
+
 </p>
+
+<div class="hero-buttons">
+
+<a href="#" class="btn-primary">Découvrir nos services</a>
+
+<a href="#" class="btn-secondary">
+
+<i class="fa-solid fa-phone"></i>
+
+Nous contacter
+
+</a>
+
 </div>
+
+</div>
+
 </section>
 
-<!-- SERVICES -->
-<section id="services" class="fade">
-<h2 class="title">Our Services</h2>
+<section class="stats">
 
-<div class="grid">
+<div class="stat">
 
-<div class="card">
+<h2>25+</h2>
+
+<p>Pays partenaires</p>
+
+</div>
+
+<div class="stat">
+
+<h2>300+</h2>
+
+<p>Clients accompagnés</p>
+
+</div>
+
+<div class="stat">
+
+<h2>1200+</h2>
+
+<p>Expéditions</p>
+
+</div>
+
+<div class="stat">
+
+<h2>98%</h2>
+
+<p>Satisfaction</p>
+
+</div>
+
+</section>
+
+  <!-- =========================
+     À PROPOS
+========================= -->
+<section class="about" id="about">
+
+    <div class="about-image">
+        <img src="images/about.jpg" alt="NEXORA Trade & Logistics">
+    </div>
+
+    <div class="about-content">
+
+        <span class="subtitle">À PROPOS DE NEXORA</span>
+
+        <h2>Votre partenaire stratégique pour le commerce international</h2>
+
+        <p>
+            Basée à Douala (Cameroun), NEXORA TRADE & LOGISTICS accompagne les
+            entreprises, investisseurs et institutions dans leurs projets
+            d'import-export, de logistique et de développement commercial
+            en Afrique et à l'international.
+        </p>
+
+        <p>
+            Notre mission est de créer des opportunités durables grâce à un
+            réseau mondial de partenaires, une expertise terrain et une
+            parfaite maîtrise des échanges internationaux.
+        </p>
+
+        <a href="#" class="btn-primary">
+            En savoir plus
+        </a>
+
+    </div>
+
+</section>
+
+<!-- =========================
+NOS SERVICES
+========================= -->
+
+<section class="services">
+
+<div class="section-title">
+
+<span>Nos services</span>
+
+<h2>Des solutions adaptées à votre développement</h2>
+
+</div>
+
+<div class="services-grid">
+
+<div class="service-card">
+
+<i class="fa-solid fa-ship"></i>
+
 <h3>Import & Export</h3>
-<p>End-to-end management of international trade operations.</p>
-</div>
 
-<div class="card">
-<h3>Global Logistics</h3>
-<p>Efficient transport, tracking, and supply chain solutions.</p>
-</div>
-
-<div class="card">
-<h3>Business Development</h3>
-<p>Market expansion, lead generation, and growth strategy.</p>
-</div>
-
-<div class="card">
-<h3>Trade Consulting</h3>
-<p>Expert guidance for international business success.</p>
-</div>
+<p>
+Gestion complète des opérations d'importation
+et d'exportation vers les marchés internationaux.
+</p>
 
 </div>
+
+<div class="service-card">
+
+<i class="fa-solid fa-truck-fast"></i>
+
+<h3>Logistique</h3>
+
+<p>
+Transport maritime, aérien et terrestre,
+coordination de la chaîne logistique.
+</p>
+
+</div>
+
+<div class="service-card">
+
+<i class="fa-solid fa-chart-line"></i>
+
+<h3>Développement commercial</h3>
+
+<p>
+Prospection, recherche de clients,
+développement de nouveaux marchés.
+</p>
+
+</div>
+
+<div class="service-card">
+
+<i class="fa-solid fa-handshake"></i>
+
+<h3>Mise en relation</h3>
+
+<p>
+Connexion avec des fournisseurs,
+distributeurs, investisseurs et partenaires.
+</p>
+
+</div>
+
+<div class="service-card">
+
+<i class="fa-solid fa-earth-africa"></i>
+
+<h3>Commerce International</h3>
+
+<p>
+Conseil stratégique pour réussir
+vos opérations internationales.
+</p>
+
+</div>
+
+<div class="service-card">
+
+<i class="fa-solid fa-briefcase"></i>
+
+<h3>Business Consulting</h3>
+
+<p>
+Accompagnement des entreprises
+dans leur croissance mondiale.
+</p>
+
+</div>
+
+</div>
+
 </section>
 
-<!-- EXPERTISE -->
-<section id="expertise" class="fade">
-<h2 class="title">Expertise</h2>
+<!-- =========================
+POURQUOI NOUS CHOISIR
+========================= -->
 
-<div class="grid">
-<div class="card">International Trade</div>
-<div class="card">Market Research</div>
-<div class="card">B2B Matchmaking</div>
-<div class="card">Investment Facilitation</div>
-<div class="card">Supply Chain Optimization</div>
-<div class="card">Commercial Strategy</div>
+<section class="why-us">
+
+<div class="section-title">
+
+<span>Pourquoi nous choisir ?</span>
+
+<h2>Une expertise reconnue</h2>
+
+</div>
+
+<div class="why-grid">
+
+<div>
+
+<h3>🌍 Réseau international</h3>
+
+<p>
+Des partenaires présents sur plusieurs continents.
+</p>
+
+</div>
+
+<div>
+
+<h3>🚢 Logistique performante</h3>
+
+<p>
+Des solutions fiables pour optimiser vos échanges.
+</p>
+
+</div>
+
+<div>
+
+<h3>📈 Croissance commerciale</h3>
+
+<p>
+Des stratégies efficaces pour développer votre activité.
+</p>
+
+</div>
+
+<div>
+
+<h3>🤝 Accompagnement personnalisé</h3>
+
+<p>
+Une équipe dédiée à chaque projet.
+</p>
+
+</div>
+
 </div>
 
 </section>
 
-<!-- CONTACT -->
-<section id="contact" class="fade">
-<h2 class="title">Contact Us</h2>
+<!-- =========================
+SECTEURS
+========================= -->
 
-<div class="contact-box">
-<form onsubmit="event.preventDefault(); alert('Message sent successfully!');">
-<input type="text" placeholder="Your Name" required>
-<input type="email" placeholder="Your Email" required>
-<textarea rows="5" placeholder="Your Message"></textarea>
-<button class="submit">Send Message</button>
-</form>
-<br>
-<p>📞 +237 698 84 55 71</p>
-<p>📧 info.nexora45@yahoo.com</p>
-<p>📍 Douala, Cameroon</p>
+<section class="sectors">
+
+<div class="section-title">
+
+<span>Secteurs d'activité</span>
+
+<h2>Nous intervenons dans plusieurs domaines</h2>
+
+</div>
+
+<div class="services-grid">
+
+<div class="service-card">Agroalimentaire</div>
+
+<div class="service-card">BTP</div>
+
+<div class="service-card">Industrie</div>
+
+<div class="service-card">Énergie</div>
+
+<div class="service-card">Santé</div>
+
+<div class="service-card">Commerce Général</div>
+
 </div>
 
 </section>
-
-<footer>
-<p>© 2026 NEXORA TRADE & LOGISTICS — All Rights Reserved</p>
-<p>“Connecting Global Markets, Delivering Growth”</p>
-</footer>
-
-<!-- SCRIPT ANIMATION -->
-<script>
-// scroll animation
-const faders = document.querySelectorAll('.fade');
-
-window.addEventListener('scroll', () => {
-faders.forEach(el => {
-const top = el.getBoundingClientRect().top;
-if(top < window.innerHeight - 100){
-el.classList.add('show');
-}
-});
-});
-</script>
-
-</body>
-</html>
