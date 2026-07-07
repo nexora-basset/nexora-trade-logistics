@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -6,138 +7,89 @@
 
 <title>NEXORA TRADE & LOGISTICS</title>
 
-<style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background: #f5f5f5;
-    color: #333;
-}
-
-header {
-    background: #003366;
-    color: white;
-    padding: 40px;
-    text-align: center;
-}
-
-nav {
-    background: #222;
-    padding: 15px;
-    text-align: center;
-}
-
-nav a {
-    color: white;
-    margin: 15px;
-    text-decoration: none;
-}
-
-section {
-    padding: 40px;
-    background: white;
-    margin: 20px;
-    border-radius: 10px;
-}
-
-h2 {
-    color: #003366;
-}
-
-.services {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.box {
-    flex: 1;
-    min-width: 250px;
-    padding: 20px;
-    background: #eee;
-    border-radius: 8px;
-}
-
-footer {
-    background: #003366;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
 <header>
-<h1>NEXORA TRADE & LOGISTICS</h1>
-<h2 style="color:white;">
-Import – Export – Logistique – Prestations de Services
-</h2>
-<p>Basée à Douala, Cameroun 🇨🇲</p>
+    <div class="logo">
+        <h1>NEXORA</h1>
+        <p>TRADE & LOGISTICS</p>
+    </div>
+
+    <h2>Import – Export – Logistique – Prestations de Services</h2>
+    <p>Votre partenaire commercial basé à Douala, Cameroun 🇨🇲</p>
+
+    <a class="button" href="https://wa.me/237698845571">
+        WhatsApp
+    </a>
 </header>
 
 
 <nav>
 <a href="#about">Accueil</a>
 <a href="#services">Services</a>
+<a href="#devis">Devis</a>
 <a href="#contact">Contact</a>
+<a href="english.html">English</a>
 </nav>
 
 
 <section id="about">
 
-<h2>Qui sommes-nous ?</h2>
+<h2>À propos de NEXORA</h2>
 
 <p>
-NEXORA TRADE & LOGISTICS est une société spécialisée dans le commerce international,
-l’importation, l’exportation, la logistique et les prestations de services.
+NEXORA TRADE & LOGISTICS est une société spécialisée dans
+l'import-export, la logistique et les prestations de services.
 </p>
 
 <p>
-Nous accompagnons nos clients au Cameroun, en Afrique et à l’international
-avec des solutions adaptées aux besoins commerciaux et logistiques.
+Nous facilitons les échanges commerciaux entre le Cameroun,
+l’Afrique et le reste du monde.
 </p>
 
 </section>
+
 
 
 <section id="services">
 
 <h2>Nos Services</h2>
 
-<div class="services">
+<div class="cards">
 
-<div class="box">
+<div class="card">
 <h3>Import & Export</h3>
 <ul>
-<li>Achat et vente de produits internationaux</li>
+<li>Achat et vente internationale</li>
 <li>Recherche de fournisseurs</li>
 <li>Gestion des opérations commerciales</li>
-<li>Accompagnement international</li>
+<li>Accompagnement des clients</li>
 </ul>
 </div>
 
 
-<div class="box">
+<div class="card">
 <h3>Logistique & Transport</h3>
 <ul>
-<li>Transport maritime, aérien et terrestre</li>
+<li>Transport maritime</li>
+<li>Transport aérien</li>
+<li>Transport terrestre</li>
 <li>Suivi des marchandises</li>
-<li>Assistance aux opérations portuaires</li>
-<li>Coordination des livraisons</li>
 </ul>
 </div>
 
 
-<div class="box">
+<div class="card">
 <h3>Prestations de Services</h3>
 <ul>
 <li>Conseil commercial</li>
 <li>Assistance administrative</li>
-<li>Mise en relation fournisseurs / clients</li>
-<li>Recherche d’opportunités d’affaires</li>
+<li>Mise en relation fournisseurs/clients</li>
+<li>Recherche d'opportunités d'affaires</li>
 </ul>
 </div>
 
@@ -146,29 +98,30 @@ avec des solutions adaptées aux besoins commerciaux et logistiques.
 </section>
 
 
-<section>
 
-<h2>Notre Mission</h2>
+<section id="devis">
 
-<p>
-Faciliter les échanges commerciaux entre le Cameroun, l’Afrique et le reste du monde
-grâce à des solutions fiables, rapides et efficaces.
-</p>
+<h2>Demande de devis</h2>
 
+<form>
 
-<h2>Notre Vision</h2>
+<input type="text" placeholder="Votre nom" required>
 
-<p>
-Devenir un partenaire de référence dans l’import-export, la logistique
-et les services aux entreprises en Afrique centrale.
-</p>
+<input type="email" placeholder="Votre email" required>
+
+<input type="text" placeholder="Votre téléphone">
+
+<textarea placeholder="Votre demande"></textarea>
+
+<button type="submit">
+Envoyer la demande
+</button>
+
+</form>
 
 </section>
 
 
-<section id="contact">
-
-<h2>Contact</h2>
 
 <section id="contact">
 
@@ -185,12 +138,17 @@ et les services aux entreprises en Afrique centrale.
 </section>
 
 
+
 <footer>
 
-<p>© 2026 NEXORA TRADE & LOGISTICS - Tous droits réservés</p>
+<p>
+© 2026 NEXORA TRADE & LOGISTICS
+</p>
 
 </footer>
 
+
+<script src="script.js"></script>
 
 </body>
 </html>
