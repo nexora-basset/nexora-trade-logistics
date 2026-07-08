@@ -1,86 +1,160 @@
+
 ```html
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nexora Trade Logistics</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nexora Trade Logistics</title>
 
-    <style>
-        body{
-            font-family: Arial, sans-serif;
-            margin:0;
-            background:#f4f4f4;
-            color:#333;
-        }
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
 
-        header{
-            background:#003366;
-            color:white;
-            text-align:center;
-            padding:30px;
-        }
+body{
+    font-family:Arial,sans-serif;
+    background:#f5f7fa;
+    color:#333;
+    line-height:1.6;
+}
 
-        section{
-            max-width:800px;
-            margin:auto;
-            padding:40px 20px;
-        }
+nav{
+    background:#002b5c;
+    padding:15px;
+    text-align:center;
+}
 
-        .box{
-            background:white;
-            padding:20px;
-            border-radius:8px;
-            box-shadow:0 2px 8px rgba(0,0,0,0.1);
-        }
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
 
-        a{
-            color:#003366;
-            text-decoration:none;
-        }
+.hero{
+    background:linear-gradient(rgba(0,43,92,.75),rgba(0,43,92,.75)),
+    url("https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1600&q=80");
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+}
 
-        footer{
-            background:#003366;
-            color:white;
-            text-align:center;
-            padding:15px;
-            margin-top:40px;
-        }
-    </style>
+.hero h1{
+    font-size:48px;
+}
+
+.hero p{
+    margin:20px 0;
+    font-size:20px;
+}
+
+.btn{
+    display:inline-block;
+    background:#ff9800;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:40px auto;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    margin-bottom:25px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+
+h2{
+    color:#002b5c;
+    margin-bottom:15px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+footer{
+    background:#002b5c;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+a{
+    color:#002b5c;
+}
+</style>
+
 </head>
-
 <body>
 
-<header>
-    <h1>Nexora Trade Logistics</h1>
-    <p>Votre partenaire en transport, import-export et logistique.</p>
-</header>
+<nav>
+<a href="#apropos">À propos</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</nav>
 
-<section>
-    <div class="box">
-        <h2>À propos</h2>
-        <p>
-            Nexora Trade Logistics accompagne les entreprises avec des solutions
-            fiables de transport, de logistique, d'importation et d'exportation
-            au Cameroun et à l'international.
-        </p>
+<section class="hero">
+<h1>Nexora Trade Logistics</h1>
+<p>Votre partenaire de confiance en transport et logistique internationale.</p>
 
-        <h2>Contact</h2>
-
-        <p><strong>📍 Adresse :</strong> Douala, Cameroun</p>
-
-        <p><strong>📞 Téléphone :</strong>
-            <a href="tel:+237698845571">+237 698 845 571</a>
-        </p>
-
-        <p><strong>📧 Email :</strong>
-            <a href="mailto:info.nexora45@yahoo.com">info.nexora45@yahoo.com</a>
-        </p>
-    </div>
+<a class="btn" href="mailto:info.nexora45@yahoo.com">Demander un devis</a>
 </section>
 
+<div class="container">
+
+<div class="card" id="apropos">
+<h2>À propos</h2>
+
+<p>
+Basée à Douala, Cameroun, Nexora Trade Logistics accompagne les entreprises
+dans leurs opérations d'import-export, de transport de marchandises,
+de logistique et de dédouanement.
+</p>
+
+</div>
+
+<div class="card" id="services">
+
+<h2>Nos services</h2>
+
+<ul>
+<li>🚢 Fret maritime</li>
+<li>✈️ Fret aérien</li>
+<li>🚚 Transport routier</li>
+<li>📦 Import - Export</li>
+<li>🏢 Entreposage</li>
+<li>📋 Assistance douanière</li>
+</ul>
+
+</div>
+
+<div class="card" id="contact">
+
+<h2>Contact</h2>
+
+<p><strong>📍 Adresse :</strong> Douala, Cameroun</p>
+
+<p><strong>📞 Téléphone :</strong>
+<a href="tel:+237698845571">+237 698 845 571</a></p>
+
+<p><strong>📧 Email :</strong>
+<a href="mailto:info.nexora45@yahoo.com">info.nexora45@yahoo.com</a></p>
+
+</div>
+
+</div>
+
 <footer>
-    © 2026 Nexora Trade Logistics. Tous droits réservés.
+© 2026 Nexora Trade Logistics - Tous droits réservés.
 </footer>
 
 </body>
