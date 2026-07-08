@@ -1,2 +1,9 @@
-
-src="images/logo.png"
+nexora-trade-logistics/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+└── images/
+    ├── logo.png
+    └── hero.png
