@@ -1,299 +1,36 @@
-```css
-/* =====================================
-   NEXORA TRADE & LOGISTICS
-   Style professionnel du site
-===================================== */
-
-
-/* Général */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-body {
-
-    font-family: Arial, Helvetica, sans-serif;
-
-    line-height: 1.6;
-
-    background-color: #f5f7fa;
-
-    color: #333;
-
-}
-
-
-
-/* Navigation */
-
-nav {
-
-    background-color: #0b3d91;
-
-    padding: 15px;
-
+.hero {
     text-align: center;
-
-}
-
-
-nav a {
-
+    padding: 60px 20px;
+    background: #0b3d91;
     color: white;
-
-    text-decoration: none;
-
-    margin: 0 15px;
-
-    font-weight: bold;
-
 }
 
-
-nav a:hover {
-
-    color: #ffd700;
-
+.hero-content {
+    max-width: 900px;
+    margin: auto;
 }
 
-
-
-/* Header */
-
-header {
-
-    background-image: linear-gradient(
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    ),
-    url("images/logistics.jpg");
-
-    background-size: cover;
-
-    background-position: center;
-
-    color: white;
-
-    text-align: center;
-
-    padding: 80px 20px;
-
-}
-
-
-header h1 {
-
-    font-size: 42px;
-
-    margin-bottom: 20px;
-
-}
-
-
-header p {
-
-    font-size: 20px;
-
-}
-
-
-
-/* Sections */
-
-section {
-
-    background: white;
-
+.hero-image {
+    display: block;
+    width: 100%;
+    max-width: 1200px;
     margin: 30px auto;
-
-    padding: 30px;
-
-    width: 90%;
-
-    max-width: 1100px;
-
-    border-radius: 10px;
-
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
-
-
-h1, h2 {
-
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 28px;
+    background: #f4b400;
     color: #0b3d91;
-
-    margin-bottom: 20px;
-
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
 }
 
-
-
-p {
-
-    margin-bottom: 15px;
-
-}
-
-
-
-ul {
-
-    margin-left: 30px;
-
-}
-
-
-li {
-
-    margin-bottom: 10px;
-
-}
-
-
-
-/* Images */
-
-img {
-
-    max-width: 100%;
-
-    height: auto;
-
-}
-
-
-
-/* Formulaires */
-
-form {
-
-    display: flex;
-
-    flex-direction: column;
-
-}
-
-
-
-input,
-textarea {
-
-    padding: 12px;
-
-    margin-bottom: 15px;
-
-    border: 1px solid #ccc;
-
-    border-radius: 5px;
-
-    font-size: 16px;
-
-}
-
-
-
-textarea {
-
-    min-height: 120px;
-
-}
-
-
-
-button {
-
-    background-color: #0b3d91;
-
-    color: white;
-
-    padding: 14px;
-
-    border: none;
-
-    border-radius: 5px;
-
-    cursor: pointer;
-
-    font-size: 16px;
-
-}
-
-
-button:hover {
-
-    background-color: #06275c;
-
-}
-
-
-
-/* Cartes services */
-
-.card {
-
-    background: white;
-
-    padding: 20px;
-
-    margin: 15px;
-
-    border-radius: 10px;
-
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-
-}
-
-
-
-/* Footer */
-
-footer {
-
-    background-color: #222;
-
-    color: white;
-
-    text-align: center;
-
-    padding: 20px;
-
-    margin-top: 40px;
-
-}
-
-
-
-/* Version mobile */
-
-@media(max-width:768px){
-
-
-nav a {
-
-    display:block;
-
-    margin:10px;
-
-}
-
-
-header h1 {
-
-    font-size:30px;
-
-}
-
-
-section {
-
-    width:95%;
-
-}
-
-
+.btn:hover {
+    background: #ffd24d;
 }
 ```
