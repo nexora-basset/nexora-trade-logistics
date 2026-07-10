@@ -1,1 +1,382 @@
 
+/* ===== RESET ===== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#F5F7FA;
+    color:#333;
+    line-height:1.6;
+}
+
+
+/* ===== NAVIGATION ===== */
+
+header{
+    background:#0B3C6F;
+    color:white;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav{
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+}
+
+nav h1{
+    font-size:24px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#F59E0B;
+}
+
+
+/* ===== HERO ===== */
+
+.hero{
+
+    height:90vh;
+
+    background:
+    linear-gradient(
+    rgba(11,60,111,.75),
+    rgba(11,60,111,.75)
+    ),
+    url("images/hero-logistics.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+    color:white;
+}
+
+
+.hero-content{
+    max-width:800px;
+    padding:20px;
+}
+
+
+.hero h2{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+
+.hero p{
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+
+.btn{
+
+    background:#F59E0B;
+    color:white;
+
+    padding:15px 30px;
+
+    border-radius:30px;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    transition:.3s;
+}
+
+
+.btn:hover{
+
+    background:white;
+    color:#0B3C6F;
+
+}
+
+
+/* ===== SECTIONS ===== */
+
+
+section{
+
+    max-width:1100px;
+
+    margin:70px auto;
+
+    padding:30px;
+
+    background:white;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 5px 20px rgba(0,0,0,.08);
+
+}
+
+
+section h2{
+
+    text-align:center;
+
+    color:#0B3C6F;
+
+    margin-bottom:25px;
+
+    font-size:32px;
+
+}
+
+
+/* ===== SERVICES ===== */
+
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(250px,1fr));
+
+    gap:25px;
+
+}
+
+
+.card{
+
+    background:#F5F7FA;
+
+    padding:25px;
+
+    border-radius:12px;
+
+    text-align:center;
+
+    transition:.3s;
+
+    border-top:4px solid #F59E0B;
+
+}
+
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,.15);
+
+}
+
+
+.card h3{
+
+    color:#0B3C6F;
+
+    margin-bottom:15px;
+
+}
+
+
+/* ===== AVANTAGES ===== */
+
+
+.advantages ul{
+
+    list-style:none;
+
+    max-width:500px;
+
+    margin:auto;
+
+}
+
+
+.advantages li{
+
+    padding:12px;
+
+    font-size:18px;
+
+}
+
+
+/* ===== CONTACT ===== */
+
+
+#contact{
+
+    text-align:center;
+
+}
+
+
+#contact a{
+
+    color:#0B3C6F;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+
+form{
+
+    max-width:600px;
+
+    margin:30px auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+
+input,
+textarea{
+
+    padding:15px;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+}
+
+
+textarea{
+
+    height:130px;
+
+}
+
+
+button{
+
+    background:#0B3C6F;
+
+    color:white;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:17px;
+
+}
+
+
+button:hover{
+
+    background:#F59E0B;
+
+}
+
+
+/* ===== FOOTER ===== */
+
+
+footer{
+
+    background:#0B3C6F;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+}
+
+
+/* ===== MOBILE ===== */
+
+
+@media(max-width:768px){
+
+
+nav{
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+
+nav ul{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+
+.hero h2{
+
+    font-size:32px;
+
+}
+
+
+.hero p{
+
+    font-size:17px;
+
+}
+
+
+section{
+
+    margin:30px 15px;
+
+}
+
+
+}
